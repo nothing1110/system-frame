@@ -15,6 +15,11 @@
     <description>框架核心包</description>
 
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>com.zhuangf</groupId>-->
+            <!--<artifactId>myFrame-common</artifactId>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

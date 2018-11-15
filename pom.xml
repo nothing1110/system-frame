@@ -30,8 +30,8 @@
 
     <!-- 子模块-->
     <modules>
-        <module>myFrame-base</module>
         <module>myFrame-common</module>
+        <module>myFrame-base</module>
     </modules>
 
     <!-- 只是对版本号进行管理，不会实际引入jar  -->
