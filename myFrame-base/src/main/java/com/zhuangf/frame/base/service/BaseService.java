@@ -82,4 +82,18 @@ public interface BaseService<T,ID extends Serializable> {
      * @return
      */
     Page<T> queryPage(T t, Page page, String... likeFields);
+
+    /**
+     * 获得列表
+     * @param t
+     * @param likeFields
+     * @return
+     */
+    List<T> queryList(T t,String... likeFields);
+
+    /**
+     * 获得全部
+     * @return
+     */
+    List<T> queryList();
 }

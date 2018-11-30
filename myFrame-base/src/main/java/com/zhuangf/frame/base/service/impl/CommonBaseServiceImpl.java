@@ -106,4 +106,14 @@ public class CommonBaseServiceImpl<T,Mapper extends CommonBaseMapper<T>,ID exten
 //        Example example = new Example(t.getClass());
         return null;
     }
+
+    @Override
+    public List<T> queryList(T t, String... likeFields) {
+        return null;
+    }
+
+    @Override
+    public List<T> queryList() {
+        return null;
+    }
 }
