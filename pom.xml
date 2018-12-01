@@ -32,6 +32,7 @@
     <modules>
         <module>myFrame-common</module>
         <module>myFrame-base</module>
+        <module>myFrame-build</module>
     </modules>
 
     <!-- 只是对版本号进行管理，不会实际引入jar  -->
